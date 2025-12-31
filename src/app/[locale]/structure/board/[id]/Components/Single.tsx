@@ -54,7 +54,7 @@ const Single = ({ id }) => {
         {/* <p>{content?.bio}</p> */}
         <div
           className="text-justify font-semibold lg:text-base text-[13px]"
-          dangerouslySetInnerHTML={{ __html: content?.bio }}
+          dangerouslySetInnerHTML={{ __html: content?.description }}
         />
       </div>
     </div>
